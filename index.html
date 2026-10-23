@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evrak Paneli — Gizlilik & Haklar</title>
+<style>
+  :root{--bg:#F2F0EB;--panel:#FFFFFF;--ink:#1E3932;--ink2:#5E6F68;--line:#E4DFD3;--accent:#00704A;--gold:#CBA258;
+    --shadow:0 1px 2px rgba(30,57,50,.06),0 8px 24px rgba(30,57,50,.08);color-scheme:light;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111A17;--panel:#1A2622;--ink:#ECE8DE;--ink2:#A3B5AD;--line:#2A3A34;--accent:#2BA97A;--gold:#D3B06E;--shadow:0 1px 2px rgba(0,0,0,.35),0 10px 26px rgba(0,0,0,.3);color-scheme:dark;}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:40px 16px;}
+  .wrap{max-width:720px;margin:0 auto}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .logo{width:52px;height:52px;border-radius:14px;flex:none;background:linear-gradient(160deg,#1E3932,#00704A);display:grid;place-items:center;box-shadow:0 0 0 2px var(--gold) inset}
+  .logo span{font-size:26px}
+  h1{font-size:26px;margin:0}
+  .tag{color:var(--ink2);font-size:14px;margin:2px 0 0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:26px 28px;margin-top:22px}
+  .lead{background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 12%,var(--panel)),var(--panel));border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:14px 18px;font-weight:600}
+  h2{font-size:18px;color:var(--accent);margin:26px 0 6px}
+  h2:first-of-type{margin-top:8px}
+  p{margin:6px 0}a{color:var(--accent);font-weight:600}
+  .rights{border-left-color:var(--gold)}
+  .foot{color:var(--ink2);font-size:13px;margin-top:26px;text-align:center}
+  @media (max-width:560px){body{padding:24px 16px}h1{font-size:22px}.card{padding:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><span>📄</span></div>
+    <div><h1>Evrak Paneli</h1><p class="tag">Gizlilik Politikası & Yasal Haklar · Geliştiren: Metin Vural</p></div>
+  </header>
+
+  <div class="card">
+    <p class="lead">Evrak Paneli, verilerinizi yalnızca kullandığınız bilgisayarda, tarayıcının
+    kendi deposunda saklar. Hiçbir veri bir sunucuya ya da üçüncü taraflara gönderilmez.
+    Satış, reklam veya izleme yoktur.</p>
+
+    <h2>Hangi veriler saklanır?</h2>
+    <p>Yalnızca sizin girdiğiniz veya eklediğiniz bilgiler cihazınızda tutulur: evrak düzeni ve
+    yüklediğiniz dosyalar; mağaza adı; vardiya notları; takvim hatırlatmaları; arşive eklediğiniz
+    dosya ve görseller; isteğe bağlı bilgi yarışmasında girilen sicil no, ad-soyad ve skorlar.</p>
+
+    <h2>Veriler nerede tutulur?</h2>
+    <p>Tüm veriler cihazınızdaki tarayıcı deposunda (IndexedDB / yerel depolama) kalır. Uzak bir
+    sunucu yoktur; eklenti verilerinizi internete göndermez.</p>
+
+    <h2>Veriler paylaşılır mı?</h2>
+    <p>Hayır. Hiçbir veri satılmaz, kiralanmaz ya da üçüncü taraflarla paylaşılmaz; reklam veya
+    izleme amacıyla kullanılmaz.</p>
+
+    <h2>İzinler neden isteniyor?</h2>
+    <p>Depolama (verileri cihazda tutmak), indirme (dosya açmak/yedeklemek), alarm ve bildirim
+    (hatırlatmalar), ses (alarm) ve isteğe bağlı yerel yardımcıyla iletişim (bilgisayardaki asıl
+    belgeyi açmak/yazdırmak) için. “Vardiya Aktarıcı” özelliği yalnızca sizin girdiğiniz adreste
+    ve sizin onayınızla çalışır.</p>
+
+    <h2>Verilerin silinmesi</h2>
+    <p>Vardiya notları ve arşiv dosyaları belirli bir süre sonra kendiliğinden silinir. Tüm
+    verileri, eklentiyi kaldırarak ya da tarayıcı verilerini temizleyerek her an silebilirsiniz.</p>
+
+    <h2>Çocukların gizliliği</h2>
+    <p>Uygulama iş yeri kullanımına yöneliktir ve çocuklara yönelik değildir; bilerek çocuklardan
+    veri toplamaz.</p>
+  </div>
+
+  <div class="card">
+    <p class="lead rights">Telif ve Yasal Haklar</p>
+    <h2>Sahiplik</h2>
+    <p>Evrak Paneli uygulamasının tasarımı, kaynak kodu, logosu ve içeriği <b>© 2026 Metin Vural</b>'a
+    aittir. Tüm hakları saklıdır.</p>
+
+    <h2>Kullanım koşulları</h2>
+    <p>Bu uygulama ve kaynak dosyaları, yazılı izin olmaksızın kopyalanamaz, çoğaltılamaz,
+    dağıtılamaz, satılamaz ya da türev çalışmalarda kullanılamaz. İzin ve bilgi talepleri için
+    iletişime geçiniz.</p>
+
+    <h2>İletişim</h2>
+    <p>Metin Vural — <a href="mailto:m.vural07@hotmail.com">m.vural07@hotmail.com</a></p>
+  </div>
+
+  <p class="foot">© 2026 Metin Vural · Evrak Paneli · Tüm hakları saklıdır</p>
+</div>
+</body>
+</html>

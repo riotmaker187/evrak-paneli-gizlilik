@@ -1,0 +1,12 @@
+Evrak Paneli — Tescilli Yazılım Lisansı
+© 2026 Metin Vural. Tüm hakları saklıdır.
+
+Bu yazılımın tasarımı, kaynak kodu, logosu ve içeriği Metin Vural'a aittir.
+Yazılı izin olmaksızın; kopyalanamaz, çoğaltılamaz, dağıtılamaz, satılamaz,
+kiralanamaz, ters mühendislikle çözülemez ya da türev çalışmalarda kullanılamaz.
+
+İzin ve bilgi talepleri: m.vural07@hotmail.com
+
+All rights reserved. No part of this software may be copied, reproduced,
+distributed, sold, or used in derivative works without the prior written
+permission of the copyright holder.
